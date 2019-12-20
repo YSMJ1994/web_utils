@@ -5,13 +5,14 @@
     "name": "soberz",
     "email": "710411486@qq.com"
   },
+  "keywords": ["utils", "hooks", "web"],
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "gulp",
-    "build&publish": "yarn run build && yarn publish"
+    "build&publish": "yarn run build && yarn publish --access=public"
   },
   "files": ["es", "lib", "src"],
   "devDependencies": {
