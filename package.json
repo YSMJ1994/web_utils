@@ -1,0 +1,35 @@
+{
+  "name": "@ysmj/web_utils",
+  "version": "1.0.0",
+  "author": {
+    "name": "soberz",
+    "email": "710411486@qq.com"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "build&publish": "yarn run build && yarn publish"
+  },
+  "files": ["es", "lib", "src"],
+  "devDependencies": {
+    "@types/react": "^16.9.16",
+    "fs-extra": "^8.1.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "moment": "^2.24.0",
+    "prettier": "^1.19.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "typescript": "^3.7.3"
+  },
+  "peerDependencies": {
+    "moment": ">=2.20.0",
+    "react": ">=16.8.6",
+    "react-dom": ">=16.8.6"
+  }
+}
