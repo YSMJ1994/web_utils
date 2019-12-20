@@ -1,6 +1,6 @@
-import React, { FC, PropsWithChildren } from 'react';
+import React, { FC } from 'react';
 
-const combineProvider = (providers: FC[]): FC => (props: PropsWithChildren<{}>) => {
+const combineProvider = (providers: FC[]): FC => props => {
 	const Provider = providers[0];
 	if (!providers.length) {
 		return <>{props.children}</>;

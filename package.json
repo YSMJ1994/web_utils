@@ -38,7 +38,7 @@
     "typescript": "^3.7.3"
   },
   "peerDependencies": {
-    "moment": ">=2.20.0",
+    "moment": "*",
     "react": ">=16.8.6",
     "react-dom": ">=16.8.6"
   }
