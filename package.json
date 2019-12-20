@@ -16,7 +16,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gulp",
-    "build&publish": "yarn run build && yarn publish --access=public"
+    "publish2npm": "yarn publish --access=public",
+    "build&publish": "yarn run build && yarn run publish2npm"
   },
   "files": [
     "es",
